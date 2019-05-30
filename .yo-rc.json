@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "RDRApps",
+    "packageName": "com.optimas.rdr",
+    "packageFolder": "com/optimas/rdr",
+    "serverPort": 80,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mssql",
+    "prodDatabaseType": "mssql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.1",
+    "jwtSecretKey": "MWIwYmVlZDI0NmNjYmY1MjhjNWY1YTc4M2EzZjQ0ZjVjZTA2YjdhNWEyMjMwMDEyYmM0NTQyYTIwYjgwNTM4MjQyMjdlNGNmMTc3MTg3MzIyYTIyN2RjZjJmMTk4NzVkM2M4M2Y5NDZmZWYxNmEwZTU3MWRkNmIxODg4Yjg3MTg=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "tuyendvu",
+  "repository-name": "RDRApps"
+}
